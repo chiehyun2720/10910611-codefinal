@@ -389,7 +389,7 @@ hr {
   font-family: "Noto Serif TC", sans-serif;
   font-weight: 700;
   position: relative;
-  background-image: url(../img/footerbg.png);
+  background-image: url(./img/footerbg.png);
 }
 .crapfooter p {
   position: absolute;
@@ -404,7 +404,7 @@ hr {
   height: 350px;
   position: relative;
   letter-spacing: 0.03em;
-  background-image: url(../img/footer.png);
+  background-image: url(./img/footer.png);
   background-repeat: no-repeat;
 }
 .footerwords {
