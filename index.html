@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中華民國國防部購物車</title>
+    <!--bootstrap css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/favicon.png" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="menu">
+        <a href="#top" class="logo">
+          <img src="./img/logo.png" />
+        </a>
+        <ul class="tab-title">
+          <li><a href="#tab01">首頁</a></li>
+          <li><a href="#tab02">會員中心</a></li>
+          <li>
+            <a href="#tab03"
+              ><img
+                src="./img/notification_icon.png"
+                alt=""
+                id="notification_icon"
+            /></a>
+          </li>
+          <li>
+            <a href="#tab04"
+              ><img
+                src="./img/shoppingcart_icon.png"
+                alt=""
+                id="shoppingcart_icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="tab01" class="tab-inner">
+      <!-- carousel html -->
+      <div
+        id="carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item">
+            <img src="./img/carousel 1.png" alt="" />
+          </div>
+          <div class="item"><img src="./img/carousel2.png" alt="" /></div>
+          <div class="item"><img src="./img/carousel3.png" alt="" /></div>
+          <div class="item"><img src="./img/carousel5.png" alt="" /></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#carousel" data-slide="prev"
+          >&lsaquo;</a
+        >
+        <a class="carousel-control right" href="#carousel" data-slide="next"
+          >&rsaquo;</a
+        >
+      </div>
+      <!-- carousel html ends-->
+      <div class="title1">
+        <p>每日精選</p>
+        <img src="./img/decoration.png" alt="" class="decoration" />
+      </div>
+
+      <!-- 每日精選 html -->
+      <div class="shopping_daily">
+        <figure class="snip1268">
+          <div class="image">
+            <img src="./img/F-16V戰鬥機.png" alt="sq-sample4" />
+            <a class="add-to-cart" id="F-16v_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>F-16V戰鬥機</h2>
+            <p>
+              自民國107年起，本軍F-16V block
+              20戰機升級為F-16V戰機，全面提升機身結構、航電、偵蒐集武裝性能，強化匿蹤性、遠距偵查及視距外作戰能力，是您必須擁有的戰鬥機。
+            </p>
+            <div class="price">$NT 659999</div>
+          </figcaption>
+        </figure>
+        <figure class="snip1268 hover">
+          <div class="image">
+            <img src="./img/P-3C型機.png" alt="sq-sample17" />
+            <a class="add-to-cart" id="P-3c_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>P-3C型機</h2>
+            <p>
+              美國洛克希德公司生產海上巡邏機，已被世界許多國家所採用，主要用途是作為海上巡邏和偵察與反潛作戰。因美方長期拒絕維修，到二○二五年，我國將僅有一架可升空。
+            </p>
+            <div class="price">$NT 7599999</div>
+          </figcaption>
+        </figure>
+        <figure class="snip1268">
+          <div class="image">
+            <img src="./img/AGM-88反輻射導彈.png" alt="sq-sample15" />
+            <a class="add-to-cart" id="AGM-88_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>AGM-88反輻射導彈</h2>
+            <p>
+              美國現役的空對地反輻射飛彈，空軍的AGM-88反輻射導彈原應明年交付，但現在已經來了。空軍參謀長不方便多說，但偷偷透露我們買的「比美軍現役還要好一點」。
+            </p>
+            <div class="price">$NT 889999</div>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- 再買一次 html ends -->
+      <hr />
+      <div class="title1">
+        <p>再買一次</p>
+        <img src="./img/decoration.png" alt="" class="decoration" />
+      </div>
+
+      <!-- 再買一次 html -->
+      <div class="shopping_daily">
+        <figure class="snip1268">
+          <div class="image">
+            <img src="./img/M109A6自走砲.png" alt="sq-sample4" />
+            <a class="add-to-cart" id="M109A6_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>M109A6自走砲</h2>
+            <p>
+              拜登政府首項對台軍售案「M109A6自走砲」曾被視為挺台灣的指標，但日前美國國務院已通知我蔡英文政府喊停；，本案因產線排擠，美方告知最快於2026年後方可交運。
+            </p>
+            <div class="price">$NT 8799999</div>
+          </figcaption>
+        </figure>
+        <figure class="snip1268 hover">
+          <div class="image">
+            <img src="./img/AIM-9響尾蛇飛彈.png" alt="sq-sample17" />
+            <a class="add-to-cart" id="AIM-9_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>AIM-9響尾蛇飛彈</h2>
+            <p>
+              美國三軍AIM-9響尾蛇空對空飛彈是第一款以紅外線作為導引設計，也是第一款有擊落目標記錄的空對空飛彈。它在1956年配備至美國海軍，是一款歷經考驗的空用武器。
+            </p>
+            <div class="price">$NT 10299999</div>
+          </figcaption>
+        </figure>
+        <figure class="snip1268">
+          <div class="image">
+            <img src="./img/M88A2裝甲救濟車.png" alt="sq-sample15" />
+            <a class="add-to-cart" id="M88A2_add">加入購物車</a>
+          </div>
+          <figcaption>
+            <h2>M88A2裝甲救濟車</h2>
+            <p>
+              M88裝甲救濟車是由美國BAE公司自1960年開始生產，係利用M48戰車的承載系統、動力系統等，裝在重新設計的車身而成，目標是拖救大部分的美軍戰甲車輛。
+            </p>
+            <div class="price">$NT 1519999</div>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- 再買一次 html ends -->
+
+      <!-- footer html -->
+      <div class="crapfooter">
+        <p>以上為全部可購買品項!如有需求請另洽美國國務院!</p>
+      </div>
+      <div class="footer">
+        <div class="footerwords">
+          <ul>
+            <li><a href="#">網站隱私權政策 ｜</a></li>
+            <li><a href="#">網站安全政策宣告 ｜</a></li>
+            <li><a href="#">政府網站資料開放宣告 ｜</a></li>
+            <li><a href="#">個資法保護聲明 ｜</a></li>
+            <li><a href="#">交通資訊導引</a></li>
+          </ul>
+          <p>
+            國防部版權所有 2022 Ministry of National Defense. All rights
+            reserved.
+          </p>
+          <p>機關地址 : 104237台北市中山區北安路409號</p>
+          <p>總機電話 : (02)2311-6117(代表號)國軍人員申訴專線:1985</p>
+          <p>網站更新日期 : 112/01/10</p>
+        </div>
+      </div>
+    </div>
+    <div id="tab04" class="tab-inner">
+      <div class="container"></div>
+
+      <div>
+        <footer id="site-footer">
+          <div class="clearfix">
+            <div class="left">
+              <h2 class="subtotal">金額 <span>0</span> 元</h2>
+              <h3 class="tax">手續費 (5%): <span>0</span> 元</h3>
+              <h3 class="shipping">運費: <span>5</span> 元</h3>
+            </div>
+
+            <div class="right">
+              <h1 class="total">總額: NT <span>0</span>元</h1>
+              <a class="btn">一鍵下單</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="cartfooter"></div>
+    </div>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/cart.js"></script>
+  </body>
+</html>
